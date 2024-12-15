@@ -1,11 +1,23 @@
 {
-    "name": "mrmadclown/server-sent-events",
-    "description": "Server Sent Events lib for PHP",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "MrMadClown\\ServerSentEvents\\": "src/"
-        }
+  "name": "mrmadclown/server-sent-events",
+  "description": "Server Sent Events lib for PHP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MrMadClown\\ServerSentEvents\\": "src/"
     }
+  },
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6.8",
+    "infection/infection": "^0.26.16"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rissc\\ServerSentEvents\\Tests\\": "tests/"
+    }
+  }
 }
