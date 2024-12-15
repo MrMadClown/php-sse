@@ -1,0 +1,5 @@
+.idea
+log
+.docker
+docker-compose.yml
+vendor

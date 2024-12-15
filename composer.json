@@ -1,0 +1,11 @@
+{
+    "name": "mrmadclown/server-sent-events",
+    "description": "Server Sent Events lib for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MrMadClown\\ServerSentEvents\\": "src/"
+        }
+    }
+}
